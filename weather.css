@@ -1,0 +1,27 @@
+body{
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs6h4faQrCfecl_8OoeGjm9jpcSx2lVBUIymPse5jA3INpvpjKQA");
+	background-size: cover;
+}
+
+#cityform{
+	color: white;
+}
+
+table{
+	text-align: center;
+	width: 100%;
+}
+
+#suggestions{
+	border-radius: 10px;
+	color: navy;
+	width: 50%;
+	background-color: beige;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+}
+
+#right{
+	color: white;
+}

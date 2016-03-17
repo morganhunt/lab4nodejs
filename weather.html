@@ -2,18 +2,30 @@
 <head>
 	<title>City Finder</title>
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<script type="text/javascript" src="weather.js"></script>
 </head>
 <body>
-	<form id="cityform">
-		Enter a Utah City: <input type="text" id="cityfield" value=""><br>
-		Suggestion: <span id="txtHint">Empty</span>
-		<input id="button" type="submit" value="Submit">
-	</form>
-	<p>City</p>
-	<textarea id="dispcity">No City</textarea>
-	<p>Current Weather</p>
-	<div id="weather">No weather</div>
+	<table>
+		<td>
+			<div id="left">
+				<form id="cityform">
+					Enter a Utah City: <input type="text" id="cityfield" value=""><br>
+					<div id="suggestions">
+						Suggestion: <span id="txtHint">Empty</span><br>
+					</div>
+					<input id="button" type="submit" value="Submit">
+				</form>
+			</div>
+		</td>
+		<td>
+			<div id="right">
+				<p>City</p>
+				<textarea id="dispcity">No City</textarea>
+				<p>Current Weather</p>
+				<div id="weather">No weather</div>
+			</div>
+		</td>
+	</table>
 </body>
 </html>
